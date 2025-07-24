@@ -1,3 +1,6 @@
+import './scss/style.scss';
+import searchIcon from './img/search.png';
+
 const API_MOVIE_KEY = '904089eb'
 const API_MOVIE_URL = 'https://www.omdbapi.com/'
 
@@ -88,12 +91,8 @@ document.forms.movieForm.addEventListener('input', function (event) {
     }, 1000)
 })
 
-
 fetchPhoto();
-
-
-import './scss/style.scss';
-import searchIcon from './img/search.png';
 
 const img = document.querySelector('img');
 img.src = searchIcon;
+
